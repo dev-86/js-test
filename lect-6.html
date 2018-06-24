@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+    <title>Conditional Staements</title>
+</head>
+<body>
+    <script language = "javascript" type = "text/javascript">
+        var Physics = parseInt(prompt("Enter Physics Marks", "Enter Marks"));
+        var Chemistry = parseInt(prompt("Enter Chemistry Marks", "Enter Marks"));
+        var Mathematics = parseInt(prompt("Enter Mathematics Marks", "Enter Marks"));
+
+        var Total = Physics + Chemistry + Mathematics;
+        var Percentage = Total * 100 / 150;
+        alert(Percentage);
+
+        if(Percentage >= 80)
+        {
+            alert("Grade A");
+        }
+        else if(Percentage >= 60)
+        {
+            alert("Grade B");
+        }
+        else if(Percentage >=40)
+        {
+            alert("Grade C");
+        }
+        else
+        {
+            alert("Grade D");
+        }
+    </script>
+    
+</body>
+</html>
